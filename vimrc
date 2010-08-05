@@ -93,7 +93,7 @@ set softtabstop=4
 
 " Highlight lines over 80 characters in length.
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%80v.*/
+match OverLength /\%79v.*/
 
 " Keyboard remapping
 inoremap kj <Esc>
