@@ -97,3 +97,6 @@ match OverLength /\%79v.*/
 
 " Keyboard remapping
 inoremap kj <Esc>
+
+" Add informative status bar
+set laststatus=2
