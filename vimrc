@@ -101,6 +101,10 @@ inoremap kj <Esc>
 " Add informative status bar
 set laststatus=2
 
+" Toggle auto-indenting for code paste
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
 " Use pathogen to easily modify the runtime path to include all
 " " plugins under the ~/.vim/bundle directory
