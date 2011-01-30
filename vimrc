@@ -106,3 +106,6 @@ set laststatus=2
 " " plugins under the ~/.vim/bundle directory
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+
+" Auto-load NERDTree on startup
+autocmd VimEnter * NERDTree
