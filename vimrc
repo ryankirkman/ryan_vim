@@ -113,7 +113,3 @@ call pathogen#runtime_append_all_bundles()
 
 " Auto-load NERDTree on startup
 autocmd VimEnter * NERDTree
-
-" Enable the solarized color theme
-set background=dark
-colorscheme solarized
