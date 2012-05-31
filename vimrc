@@ -113,3 +113,9 @@ call pathogen#runtime_append_all_bundles()
 
 " Auto-load NERDTree on startup
 autocmd VimEnter * NERDTree
+
+if has('gui_running')
+  set guioptions-=T  " no toolbar
+endif
+
+colorscheme wombat
